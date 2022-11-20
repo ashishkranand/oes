@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(178, 202, 240);
+}
+.navbar{
+    background-color: rgb(7, 94, 147);
+    color: white;
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    overflow: hidden;
+    margin: 2%
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: larger;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 2%;
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+li:hover{
+    color: red;
+    transform: scale(1.2);
+}
+li::first-letter{
+    color: yellow;
+}
+.left img{
+    width: 305px;
+    height: 60px
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+}
+.card-content{
+    height: 300px;
+    width: 230px;
+    background-color: black;
+    padding: 1%;
+    margin: 2%;
+    overflow: hidden;
+}
+.card-image{
+    background-color: rgb(197, 9, 9);
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image img{
+    width: 80%;
+    height: 80%;
+}
+.card-text{
+    color:white;
+    overflow: hidden;
+}
+.card-text h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.card-content:hover{
+    background-color: rgb(7, 94, 147);
+    color: white;
+    cursor: pointer;
+}

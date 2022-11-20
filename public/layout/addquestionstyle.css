@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(178, 202, 240);
+}
+.navbar{
+    background-color: rgb(7, 94, 147);
+    color: white;
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    overflow: hidden;
+    margin: 2%
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: larger;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 2%;
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+li:hover{
+    color: red;
+    transform: scale(1.2);
+}
+li::first-letter{
+    color: yellow;
+}
+.left img{
+    width: 305px;
+    height: 60px
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+.addquestion{
+    /* height: 80vh; */
+    width: 95%;
+    margin: 2%;
+    margin-left: 20%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+select{
+    height: 10vh;
+    margin: 2%;
+    padding: 1%;
+    width: 40vw;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.question{
+    height: 10vh;
+    margin: 2%;
+    width: 40vw;
+    font-size: 25px;
+}
+.answer{
+    height: 10vh;
+    margin: 2%;
+    width: 40vw;
+    font-size: 25px;
+}
+.button{
+    height: 10vh;
+    margin: 2%;
+    padding: 1%;
+    width: 40vw;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}

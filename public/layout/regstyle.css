@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(178, 202, 240);
+}
+.navbar{
+    background-color: rgb(7, 94, 147);
+    color: white;
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    overflow: hidden;
+    margin: 2%
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: larger;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 2%;
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+li:hover{
+    color: red;
+    transform: scale(1.2);
+}
+li::first-letter{
+    color: yellow;
+}
+.left img{
+    width: 305px;
+    height: 60px
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+}
+.card-content{
+    height: 300px;
+    width: 230px;
+    background-color: black;
+    padding: 1%;
+    margin: 2%;
+    overflow: hidden;
+}
+.card-image{
+    background-color: rgb(197, 9, 9);
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image img{
+    width: 80%;
+    height: 80%;
+}
+.card-text{
+    color:white;
+    overflow: hidden;
+}
+.card-text h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.card-content:hover{
+    background-color: rgb(7, 94, 147);
+    color: white;
+    cursor: pointer;
+}
+
+.main{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 96%;
+    margin: 2%;
+    
+}
+.login{
+    background-color: rgba(135, 230, 240, 0.4);
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+    width: 30%;
+    height: 70%;
+    float: right;
+    margin: 3%;
+}
+.input{
+    width: 90%;
+    height: 5vh;
+    margin: 2%;
+    background: transparent;
+    font-size: larger;
+    padding: 3px;
+    font-weight: bold;
+}
+label{
+    margin: 2%;
+    font-weight: bolder;
+}
+.button{
+    width: 90%;
+    height: 6vh;
+    margin: 3%;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+.button:hover{
+    background-color: rgb(206, 9, 9);
+}

@@ -1,0 +1,84 @@
+.testsection{
+    height: 10vh;
+    /* background-color: rgb(101, 93, 93); */
+    margin: 2%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.testdetails{
+    height: 15vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.subjectlabel{
+    color: black;
+    font-size: larger;
+}
+.choosesubject{
+    height: 5vh;
+    width: 10vw;
+    margin: 2%;
+    font-weight: bolder;
+}
+.starttest{
+    height: 5vh;
+    margin: 2%;
+    background-color: rgb(13, 171, 13);
+    color: rgb(9, 9, 9);
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.starttest:hover{
+    background-color: green;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 94%;
+    margin: 4% 2%;
+    padding: 1%;
+    /* margin-top: 1%; */
+    /* margin-left: 10%; */
+    background-color: rgb(213, 244, 213);
+    border-bottom: 2px  solid black;
+}
+.radio{
+    width: 2%;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.options h3{
+    /* border: 2px solid red;
+    background-color: black; */
+    /* color: white; */
+    /* width: 15vw;
+    height: 10vh; */
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 25px;
+}
+.buttons{
+    width: 11%;
+    height: 8vh;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight:bolder; 
+    cursor: pointer;
+}

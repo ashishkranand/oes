@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(178, 202, 240);
+}
+.navbar{
+    background-color: rgb(7, 94, 147);
+    color: white;
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    overflow: hidden;
+    margin: 2%
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: larger;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 2%;
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+li:hover{
+    color: red;
+    transform: scale(1.2);
+}
+li::first-letter{
+    color: yellow;
+}
+.left img{
+    width: 305px;
+    height: 60px
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 70%;
+}
+.cards{
+    height: 70vh;
+    width: 96%;
+    margin: 2%;
+    overflow: hidden;
+}
+.mainsection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.card{
+    height: 25vh;
+    width: 45%;
+    background-color: red;
+    margin: 2%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.leftcard{
+width: 70%;
+height: 90%;
+background-color: black; 
+margin: 1%;
+color: white;
+display: flex;justify-content: center;
+align-items: center;
+align-content: center
+}
+.rightcard{
+    width: 30%;
+    height: 90%;
+    background-color: black;
+    margin: 1%;
+}
+.rightcard img{
+    width: 100%;
+    height: 100%;
+}
